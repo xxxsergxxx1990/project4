@@ -106,12 +106,13 @@ a {
 .nav-icons-svg{
   width: 16px;
   height: 12px;
-  padding-right: 10px;
+ 
+  
 }
 .nav-icons-svg-tel{
   width: 10px;
   height: 16px;
-  padding-right: 10px;
+  
 }
 .page-nav-link {
   color: var(--primary-text-color);

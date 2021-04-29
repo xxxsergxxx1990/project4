@@ -1,11 +1,10 @@
 /*HERO section*/
 
-img{
+img {
   display: block;
   max-width: 100%;
-  height:auto ;
+  height: auto;
 }
-
 
 .section-hero-title {
   font-weight: 900;
@@ -55,11 +54,22 @@ img{
 .features-container {
   display: flex;
   align-self: start;
-  
-  
 }
-
-.features-mini:not(:last-child){
+.features-box {
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+.features-mini:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -129,7 +139,6 @@ img{
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: flex;
-  
 }
 
 .text-acent-mail:focus,
@@ -141,26 +150,77 @@ img{
 }
 
 .one-team {
-  
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
-.social-icons{
-  width: 20px;
-  height: 20px;
 
-}
 .one-team-image {
-  
   background-color: #ffffff;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 4 * 30px) / 4);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .team-man {
   padding: 30px 32px;
+}
+
+.social-icons {
+  display: inline-flex;
+
+  width: 20px;
+  height: 20px;
+}
+.social-icons-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icons-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+/*clients*/
+
+.clients-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+  
+}
+
+.list-clients {
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+.clients-icons-item:not(:last-child){
+  margin-right: 30px;
+}
+.clients-icons-svg {
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  fill: #AFB1B8;
+}
+.clients-icons-svg:not(:last-child){
+  margin-right: 30px;
 }
