@@ -106,13 +106,13 @@ a {
 .nav-icons-svg{
   width: 16px;
   height: 12px;
- 
+ stroke: #757575;
   
 }
 .nav-icons-svg-tel{
   width: 10px;
   height: 16px;
-  
+  stroke: #757575;
 }
 .page-nav-link {
   color: var(--primary-text-color);
@@ -197,4 +197,38 @@ a {
   color: var(--text-acent-color);
   
     display: block;
+  }
+  .footer-icons-link{
+    width: 44px;
+    height: 44px;
+    border: 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .footer-icons-link:hover,
+  .footer-icons-link:focus{
+    color:#2196F3;
+  }
+  .footer-icons-item:not(:last-child){
+    margin-right: 10px;
+  }
+  .list-footer{
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .footer-tittle{
+    color: #ffffff;
+  }
+  .footer-icons-svg{
+   width: 20px;
+   height: 20px;
+   fill: #ffffff;
+  }
+  .icon-content{
+    margin-left: 70px;
   }
