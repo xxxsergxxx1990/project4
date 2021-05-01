@@ -107,6 +107,7 @@ a {
   width: 16px;
   height: 12px;
  stroke: #757575;
+ caret-color: #2196f3;
   
 }
 .nav-icons-svg-tel{
@@ -170,6 +171,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: auto;
 }
 .adress-mail {
   font-family: "Roboto", sans-serif;
@@ -187,6 +189,7 @@ a {
   line-height: 1.19;
   text-decoration: none;
   display: block;
+  margin-bottom: 20px;
 }
 .text-acent {
   font-style: normal;
@@ -210,7 +213,7 @@ a {
   }
   .footer-icons-link:hover,
   .footer-icons-link:focus{
-    color:#2196F3;
+    background:#2196F3;
   }
   .footer-icons-item:not(:last-child){
     margin-right: 10px;

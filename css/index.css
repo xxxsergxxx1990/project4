@@ -182,15 +182,21 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .social-icons-link:hover,
 .social-icons-link:focus{
- color: #2196f3;
+  background:#2196F3;
+ 
 }
 .social-icons-svg {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+}
+.social-icons-svg:focus,
+.social-icons-svg:hover{
+  fill: #ffffff;
 }
 
 /*clients*/
@@ -228,8 +234,10 @@ img {
 .clients-icons-svg:not(:last-child){
   margin-right: 30px;
 }
-
+.clients-icons-link{
+  
+}
 .clients-icons-link:focus,
 .clients-icons-link:hover{
-color: #2196f3;
+  color: #2196f3;
 }
